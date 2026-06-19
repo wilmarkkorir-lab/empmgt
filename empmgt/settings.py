@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'empmgt.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'employeedb',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'willyemp_employeedb',
+        'USER': 'willyemp',
+        'PASSWORD': 'Modcom2026',
+        'HOST': 'mysql-willyemp.alwaysdata.net',
     }
 }
 
